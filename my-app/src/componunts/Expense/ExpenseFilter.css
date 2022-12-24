@@ -1,0 +1,17 @@
+.ma{
+    display: flex;
+}
+
+div select{
+    height: 40px;
+    margin-top:60px;
+    margin-left: 320px;
+    margin-bottom: 30px;
+    background-color:lightcoral;
+}
+#text{
+    color: lightcoral;
+    font-size: 40px;
+    margin-left: 70px;
+    margin-right: 10px;
+}

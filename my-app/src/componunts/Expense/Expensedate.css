@@ -1,0 +1,17 @@
+#box{
+    height: 90px;
+    width: 80px;
+    padding: 30px;
+    background-color: black;
+    color: lightcoral;
+    margin-left: 20px ;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    border-radius: 30px;
+    
+}
+#dates{
+    transform: translateY(-25px);
+
+}
+ 
