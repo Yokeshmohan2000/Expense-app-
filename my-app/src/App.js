@@ -26,21 +26,24 @@ function App() {
      }
 const del=(id)=>{
           setExpense((arr)=>{ return arr.filter((ar)=>ar.id !==id )})
-                    }
+          }
 
      return (
           <div>
+               <center >    
                <div>
                  <NewExpense app={expenseHandler}></NewExpense>
                </div>
 
               <div>
                  <Expense obj={expense} rmv={del}> </Expense><br></br>
-              </div>
+          </div>
 
               <div>
                 {/* <Expense remove={del}></Expense> */}
               </div>
+              </center>
+
           </div>
            );
 

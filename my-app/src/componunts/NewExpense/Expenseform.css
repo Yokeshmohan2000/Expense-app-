@@ -1,37 +1,55 @@
-
+#fm{
+  padding: 0px 350px;
+}
 #form{
-    
-     background-color:lightcoral;
+    padding: 15px;
+    background-color:gray;
     border-radius: 20px;
-    height: 250px;
-    width: 300px;
+    height: 400px;
+    width: 350px;
     text-align: center;
     font-size: 20px;
-    margin-left: 550px;
-     margin-bottom: 50px;
+     
    }
 #title{
   height: 20px;
-  margin-top: 40px;
-  margin-left: 20px;
+  padding: 15px;
+  border-radius: 10px;
+  font-weight: bold;
+  
 }
  #amount{
-    margin-right: 10px;
+
     height: 20px;
-    margin-left: 5px;
+    padding: 15px;
+    border-radius: 10px;
     }
 #date{
+    padding: 15px;
     height: 25px;
-    width:170px;
-    margin-left: 15px;
+    width:250px;
+    border-radius: 10px;
+    }
+    #frmbutton{
+      padding-top: 50px;
+      padding-inline-start: 10px;
     }
   button{
-    margin-top: 700px;
-    margin-bottom: 700px;
-    color:lightcoral;
-    background-color: black;
-    margin: 10px;
-    height: 30px;
+    color:black;
+    background-color: red;
+    font-weight: bold;
+    
+    height: 50px;
     width: 100px;
     border-radius: 10px;
+    border: solid 1px silver;
+}
+label{
+  font-weight: bold;
+}
+#cancelbuttton{
+  transform: translateX(-2em);
+}
+#addbutton{
+  transform: translateX(1.5em);
 }

@@ -26,8 +26,8 @@ function Expenseform(props){
           setamount('')
           setdate("")
            
-         let form ={id:Math.floor(Math.random()*100), loan:name,rs:'Rs .'+amount,date:new Date(date)}
-        props.formdata(form)
+         let formvalues ={id:Math.floor(Math.random()*100), loan:name,rs:'Rs .'+amount,date:new Date(date)}
+        props.formdata(formvalues)
         //  console.log(form)
 
         props.start()
@@ -43,19 +43,19 @@ function Expenseform(props){
                 <input type='name' id="title" onChange={changename} value={name}></input><br></br>
               </div><br></br>
 
-              <div id='amount'>
+              <div >
                 <label htmlFor="amount">Amount</label>
                 <input type='number' id="amount" onChange={changeamount} value={amount}></input><br></br>
               </div><br></br>
       
               <div>
-                <label htmlFor="date" >Date</label>
+                <label htmlFor="date" >Date</label><br></br>
                 <input type='date' id="date" onChange={changedate} value={date}></input><br></br>
               </div>
               
               <div id='frmbutton'>
-             <button onClick={props.cancel}>Cancel</button>
-             <button onClick={click}>Add Expense</button>
+             <button id='cancelbuttton'onClick={props.cancel}>Cancel</button>
+             <button id='addbutton' onClick={click}>Add </button>
              </div>
         
             </form>

@@ -1,20 +1,7 @@
-#bg{
-    background-color:black;
-    width: fit-content;
-    justify-content: center;
-    margin-left: 300px;
-    margin-right: 180px;
-    border-radius: 20px;
-    height: 100%;
-    } 
-p{
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    margin-left: 60px;
-    }
+
 h4{
     color: aliceblue;
     text-align: center;
-    font-size: 2em;
-    margin-bottom: 20px;
+    font-size: 3em;
     }
   

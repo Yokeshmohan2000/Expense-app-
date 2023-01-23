@@ -17,11 +17,12 @@ function Expense(props){
 
          return(
         <div>
-        <div id="bg">
-          
+        
+            
                <div> 
                    <Expensefilter year={year} newyear={flt}></Expensefilter>
                </div>
+
                {year==='select year'?(props.obj.map((op,index)=>
                 <Expenseitem key={index} obj1={op} del={props.rmv}></Expenseitem>) )
                 
@@ -30,13 +31,9 @@ function Expense(props){
                 <Expenseitem obj1={o} ></Expenseitem>
                ))))} 
                
-            {/* <Expenseitem obj1={props.obj[0]}></Expenseitem><br></br>
-             <Expenseitem obj1={props.obj[1]}></Expenseitem><br></br>
-             <Expenseitem obj1={props.obj[2]}></Expenseitem>  */}
-             
-          
-        </div>
-        </div>
+        
+</div>
+        
     
         
         

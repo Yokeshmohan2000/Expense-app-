@@ -7,15 +7,17 @@ function Expensedate(props){
     
      
     return(
-        // <div id="bg">
-       <div id="box">
-          <div id='dates'>
+        <div id="dates">
+    <div id="box">
+
+        
          <h3 id='month'>{month}</h3>
-         
-         <h3 id='date'>{date}</h3>
+         <h2 id='date'>{date}</h2>
          <h3 id='year'> {year}</h3>
-         </div>
-         </div>
+        
+
+     </div>
+     </div>
          
 
     )

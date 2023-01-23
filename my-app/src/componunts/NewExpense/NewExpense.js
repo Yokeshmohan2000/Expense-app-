@@ -20,14 +20,17 @@ const cancel=()=>{
     }
 
     return(
-        <div>
-            <div>
-                <h1>Expense App</h1>
+           <div className="tittle">
+    <center>            
+            <div className="heading">
+                <h1 id='head'><span>E</span>xpense<span>A</span>pp</h1>
             </div>
+        <div className="viewbotton">
+            {isEdit===true? (<Expenseform formdata={frm1} cancel={cancel} ></Expenseform>) : 
+            (<button onClick={start} className='bttn'>View Form</button>)}
+        </div>
+    </center>
 
-     {isEdit===true? (<Expenseform formdata={frm1} cancel={cancel} ></Expenseform>) : 
-     ( <button onClick={start} id='bttn'>view Form</button>)}
-    
         </div>
         
 

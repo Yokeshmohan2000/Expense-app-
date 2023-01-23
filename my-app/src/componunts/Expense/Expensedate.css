@@ -1,17 +1,25 @@
 #box{
-    height: 90px;
-    width: 80px;
-    padding: 30px;
-    background-color: black;
-    color: lightcoral;
-    margin-left: 20px ;
-    margin-bottom: 50px;
-    margin-top: 20px;
-    border-radius: 30px;
+    height: 150px;
+    
+    width: 110px;
+    color: whitesmoke;
+    background-color: #000000;
+    border-radius: 20px;
     
 }
-#dates{
-    transform: translateY(-25px);
+#box > h3{
+    padding: 10px ;
 
 }
+#box > h2{
+
+    padding-right: 150px;
+    padding-bottom: 30px;
+}
+#dates{
+    padding-right: 50px;
+    padding-left: 20px;
+}
+
+
  

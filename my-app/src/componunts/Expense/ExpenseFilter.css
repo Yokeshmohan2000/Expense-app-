@@ -1,17 +1,35 @@
-.ma{
-    display: flex;
+*{
+margin: 0;
+padding: 0;
 }
+.filter_year{
+    text-align: center;
+    padding-top: 20px;
+    width: 1050px;
+    background-color: black;
+    margin-bottom: 10px;
+    position: sticky;
+}
+.div-filter > h1{
+    
+    
+    color: gray;
+    top: 20px;
+    padding: 30px 0;
+    padding-left: 25px;
+    font-size: 50px;
+}
+#name > select {
+    font-weight: bold;
+    background-color: red;
+    padding: 15px 40px;
+    border-color: black;
+    border: solid 1px silver;
+    border-radius: 10px;
+    position:relative;
+    }
+    #name{
+        padding-bottom: 40px;
+        padding-left: 30px;
+    }
 
-div select{
-    height: 40px;
-    margin-top:60px;
-    margin-left: 320px;
-    margin-bottom: 30px;
-    background-color:lightcoral;
-}
-#text{
-    color: lightcoral;
-    font-size: 40px;
-    margin-left: 70px;
-    margin-right: 10px;
-}

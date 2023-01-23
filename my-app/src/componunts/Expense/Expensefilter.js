@@ -9,10 +9,12 @@ function Expensefilter(props){
     }
 
     return(
-        <div>
-            <div className='ma'>
-            <h3 id='text'>Filter By year</h3>
-            
+        <div className='filter_year'>
+            <div className='div-filter' >
+            <h1 >Filter year</h1>         
+             </div>
+
+        <div id='name'>   
         <select  value={props.year} onChange={fil}>
             <option>select year</option>
             <option value='2020'>2020</option>
@@ -20,7 +22,7 @@ function Expensefilter(props){
             <option  value='2022'>2022</option>
             <option value='2023'>2023</option>
         </select>
-        </div>
+        </div> 
         </div>
     )
 }

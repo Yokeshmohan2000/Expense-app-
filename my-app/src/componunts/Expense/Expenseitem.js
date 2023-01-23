@@ -7,7 +7,8 @@ import DeleteIcon from '@mui/icons-material/Delete';
 
 function Expenseitem (props){
     return(
-         <div >
+         <div className='fillcontainer'>
+          <center>
       <div id="container">
 
     <div >  
@@ -33,7 +34,7 @@ function Expenseitem (props){
       
       </div>
         <br></br>
-        
+        </center>
          </div>
 
 
